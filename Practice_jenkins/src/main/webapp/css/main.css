@@ -1,0 +1,91 @@
+#changed {
+  color: #0000ff;
+  font-size: 120px;
+}
+
+.rsection {
+  background-color: #dfdfdf;
+  color: #000;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 20px;
+}
+
+.mysection {
+  background-color: #dfdfdf;
+  color: #000;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 20px;
+}
+
+body {
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-family: 'Courgette', cursive;
+  background-color: #fff;
+  color: #000;
+  margin: 2px;
+  padding: 0px;
+  background-image: url('abc.jpg');
+  background-position: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header {
+    text-align: center;
+}
+
+a:hover{
+  color: greenyellow;
+}
+a {
+  color:dodgerblue;
+  transition: color 1s ease-in-out;
+}
+button:hover{
+  color: greenyellow;
+}
+button {
+  background:none;
+  color:dodgerblue;
+  border:none;
+  padding:0;
+  font: inherit;
+  font-size: 20px;
+  transition-duration:0.4s;
+  cursor: pointer;
+  transition: color 1s ease-in-out;
+}
+
+.navcolor{
+  background-color: rgb(76, 10, 107);
+  color: white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+img{
+  object-fit: cover;
+}
